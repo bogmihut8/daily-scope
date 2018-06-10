@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.hero-head, .hero-foot {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.hero-foot{
+  padding:1rem 0;
+}
+
+.hero-body{
+  padding-top:3rem!important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-body .column .control {
+  width:100%;
+}
+
+.hero-body .column .control input {
+  width:80%;
+  font-family: 'Indie Flower', cursive;
+  font-size:20px;
+}
+
+.hero-body .column .control a {
+  width:18%;
+  margin-left:2%;
+  height:45px;
+}
+
+.hero-head .navbar-brand h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color:white;
+}
+
+.navbar-item.nav-text {
+  padding-bottom: 16px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
